@@ -37,46 +37,49 @@ const socialMediaLinks = [
     // instagram: "https://www.instagram.com/layman_brother/"
 
     {
-        name: "Github",
-        link: "https://github.com/ashutosh1919",
-        fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
-        backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
-    },
-    {
-        name: "LinkedIn",
-        link: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
-        fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
-        backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
-    },
-    {
-        name: "YouTube",
-        link: "https://www.youtube.com/channel/UC_amoXmmxSY9KusoDczDTXQ",
-        fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
-        backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
-    },
-    {
         name: "Gmail",
-        link: "mailto:ashutoshhathidara98@gmail.com",
+        link: "mailto:georgethedeveloper77@gmail.com",
         fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
         backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
     },
     {
-        name: "Twitter",
-        link: "https://twitter.com/ashutosh_1919",
-        fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
-        backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
+        name: "LinkedIn",
+        link: "https://www.linkedin.com/in/george-karani-900b761a1/",
+        fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
+        backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
     },
     {
         name: "Facebook",
-        link: "https://www.facebook.com/laymanbrother.19/",
+        link: "https://web.facebook.com/georgethedeve",
         fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
         backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
     },
     {
+        name: "Twitter",
+        link: "https://twitter.com/georgethedev_",
+        fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
+        backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
+    },
+
+    {
         name: "Instagram",
-        link: "https://www.instagram.com/layman_brother/",
+        link: "https://www.instagram.com/georgethedeveloper77/",
         fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
         backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
+    },
+
+    {
+        name: "Github",
+        link: "https://github.com/berzerk77",
+        fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
+        backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
+    },
+
+    {
+        name: "YouTube",
+        link: "https://www.youtube.com/channel/UCKN04VWypilyU-mm_Zv3Ybg",
+        fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
+        backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
     },
 ];
 
