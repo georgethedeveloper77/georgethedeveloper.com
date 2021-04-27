@@ -90,18 +90,18 @@
 
         {
             "id": "MDEwOlJlcG9zaXRvcnkyMDIxNDc4ODA=",
-            "name": "UnMatched",
+            "name": "Covid Tracker Concept",
             "createdAt": "2019-08-13T13:13:00Z",
-            "url": "https://play.google.com/store/apps/details?id=com.mindberzerk.unmatched",
-            "description": "Three Match game",
+            "url": "https://covid-19-tracker-c604c.web.app/",
+            "description": "Real Time Covid-19 Tracker",
             "isFork": false,
             "languages": [{
-                    "name": "C#",
-                    "iconifyClass": "logos-c-sharp"
+                    "name": "Javascript",
+                    "iconifyClass": "logos-javascript"
                 },
                 {
-                    "name": "C++",
-                    "iconifyClass": "logos-c-plus"
+                    "name": "React",
+                    "iconifyClass": "logos-node"
                 }
             ]
         },
