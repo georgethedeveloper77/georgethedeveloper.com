@@ -17,7 +17,7 @@ class Projects extends Component {
             div className = "projects-main" >
             <
             Header theme = { theme }
-            /> <
+            />{" "} <
             div className = "basic-projects" >
             <
             Fade bottom duration = { 2000 }
@@ -25,50 +25,56 @@ class Projects extends Component {
             <
             div className = "projects-heading-div" >
             <
-            div className = "projects-heading-img-div" > {
+            div className = "projects-heading-img-div" > { " " } {
                 /* <img
-                											src={require(`../../assests/images/${projectsHeader["avatar_image_path"]}`)}
-                											alt=""
-                										/> */
-            } <
+                                                                											src={require(`../../assests/images/${projectsHeader["avatar_image_path"]}`)}
+                                                                											alt=""
+                                                                										/> */
+            } { " " } <
             ProjectsImg theme = { theme }
-            /> <
-            /div> <
+            />{" "} <
+            /div>{" "} <
             div className = "projects-heading-text-div" >
             <
             h1 className = "projects-heading-text"
             style = {
-                { color: theme.text } } >
-            { projectsHeader.title } <
-            /h1> <
+                {
+                    color: theme.text,
+                }
+            } >
+            { " " } { projectsHeader.title } { " " } <
+            /h1>{" "} <
             p className = "projects-header-detail-text subTitle"
             style = {
-                { color: theme.secondaryText } } >
-            { projectsHeader["description"] } <
-            /p> <
-            /div> <
-            /div> <
-            /Fade> <
-            /div> <
-            div className = "repo-cards-div-main" > {
+                {
+                    color: theme.secondaryText,
+                }
+            } >
+            { " " } { projectsHeader["description"] } { " " } <
+            /p>{" "} <
+            /div>{" "} <
+            /div>{" "} <
+            /Fade>{" "} <
+            /div>{" "} <
+            div className = "repo-cards-div-main" > { " " } {
                 ProjectsData.data.map((repo) => {
                     return <GithubRepoCard repo = { repo }
                     theme = { theme }
                     />;
                 })
-            } <
-            /div> <
+            } { " " } <
+            /div>{" "} <
             Button text = { "More Projects" }
             className = "project-button"
             href = "https://play.google.com/store/apps/dev?id=8965127905950081681"
             newTab = { true }
             theme = { theme }
-            /> <
+            />{" "} <
             Footer theme = { this.props.theme }
             onToggle = { this.props.onToggle }
-            /> <
+            />{" "} <
             TopButton theme = { this.props.theme }
-            /> <
+            />{" "} <
             /div>
         );
     }

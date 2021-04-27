@@ -162,6 +162,14 @@ const skills = {
                     },
                 },
                 {
+                    skillName: "PHP",
+                    fontAwesomeClassname: "simple-icons:php",
+                    style: {
+                        backgroundColor: "#000000",
+                        color: "#F7DF1E",
+                    },
+                },
+                {
                     skillName: "ReactJS",
                     fontAwesomeClassname: "simple-icons:react",
                     style: {
