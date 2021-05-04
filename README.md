@@ -2,8 +2,9 @@
     <img src="images/masterportfolio-banner-light.png" align="center" height="150"></img>
 </p>
 
-<h1 align="center"> Software Developer Master Portfolio 🔥 </h1> 
-<h3 align="center"> A clean, beautiful, responsive and 100% customizable portfolio <br /> template for Software Developers! </h3>
+<h1 align="center"> georgethedeveloper 🔥 </h1>
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7e9821c1-8de4-4520-83a5-d4586d4d3d60/deploy-status)](https://app.netlify.com/sites/georgethedeveloper/deploys)
 
 <p align="center">
   <a href="http://hits.dwyl.com/ashutosh1919/masterPortfolio"><img alt="HitCounts" src="http://hits.dwyl.com/ashutosh1919/masterPortfolio.svg" /></a>
