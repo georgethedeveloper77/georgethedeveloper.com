@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8"/>
     <!-- <link rel="icon" href="%PUBLIC_URL%/favicon1.ico" /> -->
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta
-      name="georgethedeveloper"
-      content="Portfolio content"
+            name="georgethedeveloper"
+            content="Georgethedeveloper Website Content"
     />
-    <meta property="og:title" content="georgethedeveloper" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://ashutosh1919.github.io/" />
+    <meta property="og:title" content="georgethedeveloper"/>
+    <meta property="og:type" content="website"/>
+    <meta content="https://georgethedeveloper.tech/" property="og:url"/>
+
+    <meta CONTENT="Author: georgethedeveloper, Illustrator: Corporation, Category: Corporation, Length: "
+          name="Description">
+    <meta content="+nxGUDJ4QpAZ5l9Bsjdi102tLVC21AIh5d1Nl23908vVuFHs34=" name="google-site-verification"/>
+    <meta content="index,follow" name="robots">
 
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
@@ -75,17 +80,27 @@
     <title>georgethedeveloper</title>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+  <script>
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("load", () => {
+        navigator.serviceWorker.register("./serviceworker.js")
+                .then((reg) => console.log("Success: ", reg.scope))
+                .catch((err) => console.log("Failure: ", err));
+      });
+    }
+  </script>
+  <!--
+    This HTML file is a template.
+    If you open it directly in the browser, you will see an empty page.
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    You can add webfonts, meta tags, or analytics to this file.
+    The build step will place the bundled scripts into the <body> tag.
+
+    To begin the development, run `npm start` or `yarn start`.
+    To create a production bundle, use `npm run build` or `yarn build`.
+  -->
   </body>
 </html>
