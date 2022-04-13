@@ -51,7 +51,7 @@ class Contact extends Component {
                     text="See My Resume"
                     newTab={true}
                     href={
-                      "https://drive.google.com/file/d/1lbDPQ9ptKxsx2jj1rEDQBANm6GNisEfO/view?usp=sharing"
+                      "https://drive.google.com/file/d/1UW9-8Aaz7J44M7G3k8dmYV25nFa9aaIn/view?usp=sharing"
                     }
                     theme={theme}
                   />{" "}

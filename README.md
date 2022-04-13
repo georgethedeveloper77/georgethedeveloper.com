@@ -1,4 +1,4 @@
-<p align="center"> 
+<p align="center">
     <img src="images/masterportfolio-banner-light.png" align="center" height="150"></img>
 </p>
 
@@ -24,7 +24,7 @@
 </p>
 <p align="center">If you want to discuss about something, then you can ask on my <a href="https://discord.com/invite/GkcbM5bwZr">Discord Server</a>.</p>
 
-<p align="center"> 
+<p align="center">
     <a href="https://ashutosh1919.github.io" target="_blank">
     <img src="images/masterPortfolioThemes.png"></img>
   </a>
@@ -50,15 +50,20 @@ To view a live example, **[click here](https://ashutosh1919.github.io/)**
 - The website is completely built on `react-js` library of `javascript` and that's why we need `nodejs` and `npm` installed.
 - While installing `nodejs` and `npm`, try to install versions which are equal or greater than the versions mentioned in badges above.
 - In case you want to help developing it or simply saving it, you can fork the repository just by clicking the button on the top-right corner of this page.
-- After the successful installation of `nodejs` and `npm`, clone the repository into your local system using below command:
+- ## After the successful installation of `nodejs` and `npm`, clone the repository into your local system using below command:
+
   - ```python
      git clone https://github.com/ashutosh1919/masterPortfolio.git
     ```
+
   - This will clone the whole repository in your system.
-- To download required dependencies to your system, navigate to the directory where the cloned repository resides and execute following command:
+
+- ## To download required dependencies to your system, navigate to the directory where the cloned repository resides and execute following command:
+
   - ```python
     npm install
     ```
+
 - Now, the project is ready to use.
 - You can check it using `npm start`, it will open the website locally on your browser.
 
@@ -123,12 +128,14 @@ Therefore, this part of portfolio is not customizable. But don't worry we have a
 - If you don't want Splash screen or you don't know how to design logo, then this option is for you.
 
   - You can open `src/portfolio.js` file and at the top of this file you will see `settings` component as below:
+  -
   - ```python
     // Website related settings
     const settings = {
       isSplash: true,
     };
     ```
+
   - Change `isSplash` from `true` to `false`.
   - Now, if you see your website using `npm start`, it will directly open `home` rather than animating logo `splash` screen.
   - If you design your logo in future, then edit the files in `./src/components/Loader` and then revert `isSplash` to `true` in `src/portfolio.js`.
@@ -165,7 +172,7 @@ Therefore, this part of portfolio is not customizable. But don't worry we have a
 Now, your website is successfully deployed and you can visit it at `<your-github-username>.github.io`.  
 If you are stuck somewhere and want to observe the deployment process in depth, then please watch below video.
 
-<p align="center"> 
+<p align="center">
     <a href="http://www.youtube.com/watch?v=IwBS39TOmpA" target="_blank">
     <img src="http://img.youtube.com/vi/IwBS39TOmpA/0.jpg"></img>
   </a>
@@ -204,21 +211,7 @@ If you can help us with these. Please don't hesitate to open an [pull request](h
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="http://ashutosh1919.github.io"><img src="https://avatars3.githubusercontent.com/u/20843596?s=460&u=7f184b911f73ae1dc5765ab686fff2b2e984830f&v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ashutosh Hathidara</b></sub></a><br /><a href="https://github.com/ashutosh1919/masterPortfolio/commits?author=ashutosh1919" title="Code">💻</a> <a href="https://github.com/ashutosh1919/masterPortfolio/commits?author=ashutosh1919" title="Documentation">📖</a> <a href="#design-ashutosh1919" title="Design">🎨</a> <a href="#maintenance-ashutosh1919" title="Maintenance">🚧</a> <a href="#ideas-ashutosh1919" title="Ideas, Planning, & Feedback">🤔</a></td>
-    <td align="center"><a href="https://danielmarostica.github.io/"><img src="https://avatars3.githubusercontent.com/u/3595998?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Daniel Marostica</b></sub></a><br /><a href="https://github.com/ashutosh1919/masterPortfolio/commits?author=danielmarostica" title="Documentation">📖</a> <a href="#design-danielmarostica" title="Design">🎨</a></td>
-    <td align="center"><a href="https://dineshnadimpalli.com"><img src="https://avatars2.githubusercontent.com/u/13104926?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Dinesh Nadimpalli</b></sub></a><br /><a href="https://github.com/ashutosh1919/masterPortfolio/commits?author=dineshnadimpalli" title="Code">💻</a></td>
-    <td align="center"><a href="http://jivthesh.github.io"><img src="https://avatars3.githubusercontent.com/u/20579980?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jivthesh M R</b></sub></a><br /><a href="https://github.com/ashutosh1919/masterPortfolio/commits?author=jivthesh" title="Documentation">📖</a></td>
-    <td align="center"><a href="http://jatinchauhan.tech"><img src="https://avatars2.githubusercontent.com/u/40722235?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jatin Chauhan</b></sub></a><br /><a href="https://github.com/ashutosh1919/masterPortfolio/commits?author=mrjatinchauhan" title="Code">💻</a></td>
-    <td align="center"><a href="https://th3c0d3br34ker.github.io/"><img src="https://avatars1.githubusercontent.com/u/60807938?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jainam Desai</b></sub></a><br /><a href="https://github.com/ashutosh1919/masterPortfolio/commits?author=th3c0d3br34ker" title="Code">💻</a> <a href="#question-th3c0d3br34ker" title="Answering Questions">💬</a></td>
-    <td align="center"><a href="https://miftaulmannan.wordpress.com/"><img src="https://avatars0.githubusercontent.com/u/42533823?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Miftaul Mannan</b></sub></a><br /><a href="https://github.com/ashutosh1919/masterPortfolio/commits?author=Tasin5541" title="Code">💻</a></td>
-  </tr>
-  <tr>
-    <td align="center"><a href="http://a-mishra.github.io"><img src="https://avatars0.githubusercontent.com/u/10567548?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ashutosh Mishra</b></sub></a><br /><a href="https://github.com/ashutosh1919/masterPortfolio/commits?author=a-mishra" title="Code">💻</a></td>
-    <td align="center"><a href="http://tamojit.wixsite.com/mrtamojit"><img src="https://avatars0.githubusercontent.com/u/40804626?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Tamojit</b></sub></a><br /><a href="https://github.com/ashutosh1919/masterPortfolio/commits?author=tamojit-123" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://prabin-karki.com.np"><img src="https://avatars.githubusercontent.com/u/43983896?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Prabin Karki</b></sub></a><br /><a href="https://github.com/ashutosh1919/masterPortfolio/commits?author=githubprabin143" title="Code">💻</a></td>
-    <td align="center"><a href="https://praveen.science/"><img src="https://avatars.githubusercontent.com/u/1830380?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Praveen Kumar Purushothaman</b></sub></a><br /><a href="https://github.com/ashutosh1919/masterPortfolio/commits?author=praveenscience" title="Documentation">📖</a></td>
-    <td align="center"><a href="http://baul.ml"><img src="https://avatars.githubusercontent.com/u/33395806?v=4?s=100" width="100px;" alt=""/><br /><sub><b>paul</b></sub></a><br /><a href="https://github.com/ashutosh1919/masterPortfolio/commits?author=baulml" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/SandipDhang"><img src="https://avatars.githubusercontent.com/u/50694884?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sandip Dhang</b></sub></a><br /><a href="https://github.com/ashutosh1919/masterPortfolio/commits?author=SandipDhang" title="Code">💻</a></td>
+    <td align="center"><a href="http://ashutosh1919.github.io"><img src="https://avatars3.githubusercontent.com/u/20843596?s=460&u=7f184b911f73ae1dc5765ab686fff2b2e984830f&v=4?s=100" width="100px;" alt=""/><br /><sub><b>georgethedeveloper</b></sub></a><br /><a href="https://github.com/" title="Code">💻</a> <a href="https://github.com/" title="Documentation">📖</a> <a href="#design-ashutosh1919" title="Design">🎨</a> <a href="#maintenance-ashutosh1919" title="Maintenance">🚧</a> <a href="#ideas-ashutosh1919" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
 </table>
 

@@ -25,8 +25,9 @@ const greeting = {
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
-    "https://drive.google.com/open?id=1XYpYhLeqCdyx_q6l0bQoC7RgwQjAjXPf",
-  portfolio_repository: "",
+    "https://drive.google.com/file/d/1UW9-8Aaz7J44M7G3k8dmYV25nFa9aaIn/view?usp=sharing",
+  portfolio_repository:
+    "https://github.com/georgethedeveloper77?tab=repositories",
 };
 
 const socialMediaLinks = [
@@ -47,7 +48,7 @@ const socialMediaLinks = [
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/george-karani-900b761a1/",
+    link: "https://www.linkedin.com/in/georgethedeveloper/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
@@ -73,7 +74,7 @@ const socialMediaLinks = [
 
   {
     name: "Github",
-    link: "https://github.com/berzerk77",
+    link: "https://github.com/georgethedeveloper77?tab=repositories",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
@@ -518,37 +519,37 @@ const experience = {
       title: "Work",
       experiences: [
         {
-          title: "Associate AI Engineer",
-          company: "Legato Health Technology",
-          company_url: "https://legatohealthtech.com/",
+          title: "FrontEnd Developer",
+          company: "SKELTA",
+          company_url: "https://skelta.co.ke/",
           logo_path: "legato_logo.png",
-          duration: "June 2020 - PRESENT",
-          location: "Hyderabad, Telangana",
+          duration: "June 2020 - Dec 2021",
+          location: "Nairobi Kenya",
           description:
-            "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
+            "Revised, modularized and updated old code bases to modern development standards, reducing operating costs and improving functionality. Collaborated with project managers to select ambitiously, but realistic coding milestones on pre-release software project development. Developed software for both desktop and mobile operating system",
           color: "#0879bf",
         },
         {
-          title: "Android and ML Developer",
-          company: "Muffito Incorporation",
-          company_url: "https://www.linkedin.com/company/muffito-inc/about/",
+          title: "Full Stack Developer",
+          company: "Global Digital Centre",
+          company_url: "https://globalditigalcentre.org",
           logo_path: "muffito_logo.png",
-          duration: "May 2018 - Oct 2018",
-          location: "Pune, Maharashtra",
+          duration: "May 2021 - Oct 2021",
+          location: "Nairobi,Kenya",
           description:
             "I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
           color: "#9b1578",
         },
         {
-          title: "Android Developer",
-          company: "FreeCopy Pvt. Ltd.",
-          company_url: "https://www.linkedin.com/company/freecopy/about/",
-          logo_path: "freecopy_logo.png",
-          duration: "Nov 2017 - Dec 2017",
-          location: "Ahmedabad, Gujarat",
+          title: "Network Engineer Intern",
+          company: "NEXT TECHNOLOGIES",
+          company_url: "https://globalditigalcentre.org",
+          logo_path: "muffito_logo.png",
+          duration: "May 2021 - Oct 2021",
+          location: "Nairobi,Kenya",
           description:
-            "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
-          color: "#fc1f20",
+            "Provided network support and performed troubleshooting to resolve various WAN/LAN connectivity issues. Installed and maintained data and voice circuits through routers, switches, and WAN devices. Monitored data transfer security to detect and prevent intrusion attempts and respond to DDoS attacks.Performed troubleshooting for Juniper, Cisco and packet analysis.",
+          color: "#9b1578",
         },
       ],
     },
@@ -556,15 +557,15 @@ const experience = {
       title: "Internships",
       experiences: [
         {
-          title: "Data Science Research Intern",
-          company: "Delhivery Pvt. Ltd.",
-          company_url: "https://www.delhivery.com/",
-          logo_path: "delhivery_logo.png",
-          duration: "May 2019 - Sept 2019",
-          location: "Gurgaon, Haryana",
+          title: "Network Engineer Intern",
+          company: "NEXT TECHNOLOGIES",
+          company_url: "https://globalditigalcentre.org",
+          logo_path: "muffito_logo.png",
+          duration: "May 2021 - Oct 2021",
+          location: "Nairobi,Kenya",
           description:
-            "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
-          color: "#ee3c26",
+            "Provided network support and performed troubleshooting to resolve various WAN/LAN connectivity issues. Installed and maintained data and voice circuits through routers, switches, and WAN devices. Monitored data transfer security to detect and prevent intrusion attempts and respond to DDoS attacks.Performed troubleshooting for Juniper, Cisco and packet analysis.",
+          color: "#9b1578",
         },
         {
           title: "Data Science Intern",
